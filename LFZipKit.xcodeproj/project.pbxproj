@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C02665A61D6EA83700492242 /* LFZipKit-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C02665A71D6EA83700492242 /* Build configuration list for PBXAggregateTarget "LFZipKit-Universal" */;
+			buildPhases = (
+				C02665AC1D6EA84500492242 /* ShellScript */,
+			);
+			dependencies = (
+				C02665AB1D6EA84200492242 /* PBXTargetDependency */,
+			);
+			name = "LFZipKit-Universal";
+			productName = "LFZipKit-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C02665761D6E9BDF00492242 /* LFZipKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665751D6E9BDF00492242 /* LFZipKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C026657D1D6E9BDF00492242 /* LFZipKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02665721D6E9BDF00492242 /* LFZipKit.framework */; };
+		C02665821D6E9BDF00492242 /* LFZipKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02665811D6E9BDF00492242 /* LFZipKitTests.m */; };
+		C026658E1D6E9BF200492242 /* LFZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = C026658C1D6E9BF200492242 /* LFZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C026658F1D6E9BF200492242 /* LFZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = C026658D1D6E9BF200492242 /* LFZipArchive.m */; };
+		C026659A1D6E9C1400492242 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665911D6E9C1400492242 /* crypt.h */; };
+		C026659B1D6E9C1400492242 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = C02665921D6E9C1400492242 /* ioapi.c */; };
+		C026659C1D6E9C1400492242 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665931D6E9C1400492242 /* ioapi.h */; };
+		C026659D1D6E9C1400492242 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = C02665941D6E9C1400492242 /* mztools.c */; };
+		C026659E1D6E9C1400492242 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665951D6E9C1400492242 /* mztools.h */; };
+		C026659F1D6E9C1400492242 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = C02665961D6E9C1400492242 /* unzip.c */; };
+		C02665A01D6E9C1400492242 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665971D6E9C1400492242 /* unzip.h */; };
+		C02665A11D6E9C1400492242 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = C02665981D6E9C1400492242 /* zip.c */; };
+		C02665A21D6E9C1400492242 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665991D6E9C1400492242 /* zip.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C026657E1D6E9BDF00492242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02665691D6E9BDF00492242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02665711D6E9BDF00492242;
+			remoteInfo = LFZipKit;
+		};
+		C02665AA1D6EA84200492242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02665691D6E9BDF00492242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02665711D6E9BDF00492242;
+			remoteInfo = LFZipKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C02665721D6E9BDF00492242 /* LFZipKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFZipKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02665751D6E9BDF00492242 /* LFZipKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFZipKit.h; sourceTree = "<group>"; };
+		C02665771D6E9BDF00492242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C026657C1D6E9BDF00492242 /* LFZipKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFZipKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02665811D6E9BDF00492242 /* LFZipKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFZipKitTests.m; sourceTree = "<group>"; };
+		C02665831D6E9BDF00492242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C026658C1D6E9BF200492242 /* LFZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFZipArchive.h; sourceTree = "<group>"; };
+		C026658D1D6E9BF200492242 /* LFZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFZipArchive.m; sourceTree = "<group>"; };
+		C02665911D6E9C1400492242 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		C02665921D6E9C1400492242 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		C02665931D6E9C1400492242 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		C02665941D6E9C1400492242 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		C02665951D6E9C1400492242 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		C02665961D6E9C1400492242 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		C02665971D6E9C1400492242 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		C02665981D6E9C1400492242 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		C02665991D6E9C1400492242 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		C02665A31D6E9C5300492242 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C026656E1D6E9BDF00492242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02665791D6E9BDF00492242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C026657D1D6E9BDF00492242 /* LFZipKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02665681D6E9BDF00492242 = {
+			isa = PBXGroup;
+			children = (
+				C02665A31D6E9C5300492242 /* libz.tbd */,
+				C02665901D6E9C1400492242 /* minizip */,
+				C02665741D6E9BDF00492242 /* LFZipKit */,
+				C02665801D6E9BDF00492242 /* LFZipKitTests */,
+				C02665731D6E9BDF00492242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02665731D6E9BDF00492242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02665721D6E9BDF00492242 /* LFZipKit.framework */,
+				C026657C1D6E9BDF00492242 /* LFZipKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C02665741D6E9BDF00492242 /* LFZipKit */ = {
+			isa = PBXGroup;
+			children = (
+				C02665751D6E9BDF00492242 /* LFZipKit.h */,
+				C026658C1D6E9BF200492242 /* LFZipArchive.h */,
+				C026658D1D6E9BF200492242 /* LFZipArchive.m */,
+				C02665771D6E9BDF00492242 /* Info.plist */,
+			);
+			path = LFZipKit;
+			sourceTree = "<group>";
+		};
+		C02665801D6E9BDF00492242 /* LFZipKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C02665811D6E9BDF00492242 /* LFZipKitTests.m */,
+				C02665831D6E9BDF00492242 /* Info.plist */,
+			);
+			path = LFZipKitTests;
+			sourceTree = "<group>";
+		};
+		C02665901D6E9C1400492242 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				C02665911D6E9C1400492242 /* crypt.h */,
+				C02665921D6E9C1400492242 /* ioapi.c */,
+				C02665931D6E9C1400492242 /* ioapi.h */,
+				C02665941D6E9C1400492242 /* mztools.c */,
+				C02665951D6E9C1400492242 /* mztools.h */,
+				C02665961D6E9C1400492242 /* unzip.c */,
+				C02665971D6E9C1400492242 /* unzip.h */,
+				C02665981D6E9C1400492242 /* zip.c */,
+				C02665991D6E9C1400492242 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C026656F1D6E9BDF00492242 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C026659A1D6E9C1400492242 /* crypt.h in Headers */,
+				C026658E1D6E9BF200492242 /* LFZipArchive.h in Headers */,
+				C02665A21D6E9C1400492242 /* zip.h in Headers */,
+				C02665761D6E9BDF00492242 /* LFZipKit.h in Headers */,
+				C02665A01D6E9C1400492242 /* unzip.h in Headers */,
+				C026659C1D6E9C1400492242 /* ioapi.h in Headers */,
+				C026659E1D6E9C1400492242 /* mztools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C02665711D6E9BDF00492242 /* LFZipKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02665861D6E9BDF00492242 /* Build configuration list for PBXNativeTarget "LFZipKit" */;
+			buildPhases = (
+				C026656D1D6E9BDF00492242 /* Sources */,
+				C026656E1D6E9BDF00492242 /* Frameworks */,
+				C026656F1D6E9BDF00492242 /* Headers */,
+				C02665701D6E9BDF00492242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFZipKit;
+			productName = LFZipKit;
+			productReference = C02665721D6E9BDF00492242 /* LFZipKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C026657B1D6E9BDF00492242 /* LFZipKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02665891D6E9BDF00492242 /* Build configuration list for PBXNativeTarget "LFZipKitTests" */;
+			buildPhases = (
+				C02665781D6E9BDF00492242 /* Sources */,
+				C02665791D6E9BDF00492242 /* Frameworks */,
+				C026657A1D6E9BDF00492242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C026657F1D6E9BDF00492242 /* PBXTargetDependency */,
+			);
+			name = LFZipKitTests;
+			productName = LFZipKitTests;
+			productReference = C026657C1D6E9BDF00492242 /* LFZipKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02665691D6E9BDF00492242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wangxiaoxiang;
+				TargetAttributes = {
+					C02665711D6E9BDF00492242 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C026657B1D6E9BDF00492242 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C02665A61D6EA83700492242 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C026656C1D6E9BDF00492242 /* Build configuration list for PBXProject "LFZipKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C02665681D6E9BDF00492242;
+			productRefGroup = C02665731D6E9BDF00492242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02665711D6E9BDF00492242 /* LFZipKit */,
+				C026657B1D6E9BDF00492242 /* LFZipKitTests */,
+				C02665A61D6EA83700492242 /* LFZipKit-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02665701D6E9BDF00492242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C026657A1D6E9BDF00492242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C02665AC1D6EA84500492242 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./scripts/build-universal-framework.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C026656D1D6E9BDF00492242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C026659B1D6E9C1400492242 /* ioapi.c in Sources */,
+				C026658F1D6E9BF200492242 /* LFZipArchive.m in Sources */,
+				C026659F1D6E9C1400492242 /* unzip.c in Sources */,
+				C02665A11D6E9C1400492242 /* zip.c in Sources */,
+				C026659D1D6E9C1400492242 /* mztools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02665781D6E9BDF00492242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02665821D6E9BDF00492242 /* LFZipKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C026657F1D6E9BDF00492242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02665711D6E9BDF00492242 /* LFZipKit */;
+			targetProxy = C026657E1D6E9BDF00492242 /* PBXContainerItemProxy */;
+		};
+		C02665AB1D6EA84200492242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02665711D6E9BDF00492242 /* LFZipKit */;
+			targetProxy = C02665AA1D6EA84200492242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C02665841D6E9BDF00492242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C02665851D6E9BDF00492242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C02665871D6E9BDF00492242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LFZipKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-llibz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFZipKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C02665881D6E9BDF00492242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LFZipKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-llibz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFZipKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C026658A1D6E9BDF00492242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LFZipKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFZipKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C026658B1D6E9BDF00492242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LFZipKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LFZipKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C02665A81D6EA83700492242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C02665A91D6EA83700492242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C026656C1D6E9BDF00492242 /* Build configuration list for PBXProject "LFZipKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02665841D6E9BDF00492242 /* Debug */,
+				C02665851D6E9BDF00492242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02665861D6E9BDF00492242 /* Build configuration list for PBXNativeTarget "LFZipKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02665871D6E9BDF00492242 /* Debug */,
+				C02665881D6E9BDF00492242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02665891D6E9BDF00492242 /* Build configuration list for PBXNativeTarget "LFZipKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C026658A1D6E9BDF00492242 /* Debug */,
+				C026658B1D6E9BDF00492242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02665A71D6EA83700492242 /* Build configuration list for PBXAggregateTarget "LFZipKit-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02665A81D6EA83700492242 /* Debug */,
+				C02665A91D6EA83700492242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02665691D6E9BDF00492242 /* Project object */;
+}
