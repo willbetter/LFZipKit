@@ -33,7 +33,7 @@
 		C026659D1D6E9C1400492242 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = C02665941D6E9C1400492242 /* mztools.c */; };
 		C026659E1D6E9C1400492242 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665951D6E9C1400492242 /* mztools.h */; };
 		C026659F1D6E9C1400492242 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = C02665961D6E9C1400492242 /* unzip.c */; };
-		C02665A01D6E9C1400492242 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665971D6E9C1400492242 /* unzip.h */; };
+		C02665A01D6E9C1400492242 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665971D6E9C1400492242 /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C02665A11D6E9C1400492242 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = C02665981D6E9C1400492242 /* zip.c */; };
 		C02665A21D6E9C1400492242 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = C02665991D6E9C1400492242 /* zip.h */; };
 /* End PBXBuildFile section */
@@ -158,11 +158,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02665A01D6E9C1400492242 /* unzip.h in Headers */,
 				C026659A1D6E9C1400492242 /* crypt.h in Headers */,
 				C026658E1D6E9BF200492242 /* LFZipArchive.h in Headers */,
 				C02665A21D6E9C1400492242 /* zip.h in Headers */,
 				C02665761D6E9BDF00492242 /* LFZipKit.h in Headers */,
-				C02665A01D6E9C1400492242 /* unzip.h in Headers */,
 				C026659C1D6E9C1400492242 /* ioapi.h in Headers */,
 				C026659E1D6E9C1400492242 /* mztools.h in Headers */,
 			);
