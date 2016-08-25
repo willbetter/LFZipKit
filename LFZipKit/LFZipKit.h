@@ -18,4 +18,5 @@ FOUNDATION_EXPORT const unsigned char LFZipKitVersionString[];
 
 
 #import <LFZipKit/LFZipArchive.h>
-#import <LFZipKit/unzip.h>
+//LFZipCommon
+#import <LFZipKit/LFZipCommon.h>
